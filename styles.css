@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Mooli";
+  src: url("fonts/Mooli-Regular.ttf");
+}
+
+body {
+  background-color: #219ebc;
+  color: #ffb703;
+  text-shadow: 3px 3px 2px #023047;
+  text-align: center;
+  font-family: "Mooli", sans-serif;
+}
+
+/* === Home & Guest Section ==== */
+
+#container {
+  margin: 120px 0;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+#home {
+  display: inline-block;
+  width: 250px;
+  margin: 0 15px;
+}
+
+#home-scoring {
+  background: #023047;
+  border: 1px solid #fb8500;
+  font-size: 100px;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+
+#guest {
+  display: inline-block;
+  width: 250px;
+  margin: 0 15px;
+}
+
+#guest-scoring {
+  background: #023047;
+  border: 1px solid #fb8500;
+  font-size: 100px;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+
+/* === Buttons === */
+
+button {
+  background: #023047;
+  color: #ffb703;
+  border: 1px solid #fb8500;
+  border-radius: 6px;
+  font-size: 25px;
+  padding: 12px;
+  margin: 6px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
